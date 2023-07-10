@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide {
+            display: none;
+        }
+        .active {
+            background: #1dc92b;
+            color: #fff;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="add_name" placeholder="Enter your name">
+    <input type="text" class="add_email" placeholder="Enter your email">
+    <input type="text" class="add_phone" placeholder="Enter your phone">
+
+    <button class="add_button">Add</button>
+    <div class="filter_btns"> 
+        <button class="filter_btn active" data-filter="all">All</button>
+        <button class="filter_btn" data-filter="registered">Registered</button>
+        <button class="filter_btn" data-filter="not_registered">Not Registered</button>
+    </div>
+    <input type="text" class="search_input">
+
+    <ul></ul>
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

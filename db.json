@@ -1,0 +1,32 @@
+{
+  "contacts": [
+    {
+      "Name": "Fiona123",
+      "email": "fiona@gmail.com",
+      "phone": "996557609820",
+      "registered": true,
+      "id": 4
+    },
+    {
+      "Name": "mary",
+      "email": "mary@gmail.com",
+      "phone": "996557609829",
+      "registered": true,
+      "id": 8
+    },
+    {
+      "Name": "Stephanie",
+      "email": "stephanie@gmail.com",
+      "phone": "996557609829",
+      "registered": false,
+      "id": 10
+    },
+    {
+      "Name": "Frank",
+      "email": "frank@gmail.com",
+      "phone": "+996557609829",
+      "registered": true,
+      "id": 11
+    }
+  ]
+}
